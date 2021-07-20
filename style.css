@@ -1,0 +1,53 @@
+.body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.body-header {
+    width: 100%;
+    margin: 10% 0 0 0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.body-main {
+    width: 100%;
+    height: min-content;
+}
+
+.main-search-bar-div {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.main-search-bar-div form {
+    border: 1px solid rgb(160, 154, 154);
+    padding: 0.3rem;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: initial;
+}
+.main-search-bar-button {
+    border: none;
+    background-color: white;
+}
+
+.main-search-bar-button img{
+    background-color: white;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.main-search-bar {
+    border: none;
+}
+
+.main-search-bar-button:hover {
+    cursor: pointer;
+}

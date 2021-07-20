@@ -1,0 +1,1 @@
+let searchbar = document.getElementsByClassName("main-search-bar");
