@@ -57,6 +57,7 @@ button:hover {
 
 
 .todo-card {
+    margin: 1rem 0;
     display: flex;
     background-color: rgba(226, 217, 217, 0.5);
     width: fit-content;
