@@ -7,14 +7,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./style.css">
     </header>
-    <main class="body-main">
+    <main class="body-main" id="main">
         <div class="main-search-bar-div">
              <form class="main-search-bar-form">
                 <input type="text" name="input" class="main-search-bar" value="" id="inputId">
                 <button class="main-search-bar-button" id="button-id"><img src="./Resources/Icons/magnifying-glass.png"></button>   
+                <script>
+                    let inputButton = document.getElementById("button-id");
+                    let inputContainer = document.getElementById("main");
+
+                    function changeStyle(){
+                    inputContainer.style.backgroundColor = "#00FF00";
+                    }
+
+                    inputButton.onclick = changeStyle;
+                </script>
              </form>
         </div>
     </main>
-    <script src="./main.js"></script>
 </body>
 </html>
